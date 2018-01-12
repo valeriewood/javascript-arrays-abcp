@@ -2,32 +2,18 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 console.log(chocolateBars);
 
 
-var cities = ["New York", "San Francisco"];
-cities.unshift("Philadelphia");
-
-var cities = ["New York", "San Francisco"];
-cities = ["Philadelphia", ...cities];
-// ["Philadelphia", "New York", "San Francisco"];
-console.log(cities);
-
-const cats = ["Milo", "Garfield"];
-const moreCats = ["Felix", ...cats];
 
 
-
-
-var addElementToBeginningOfArray = ["Mashed Potatoes", "Green Beans"];
+var addElementToBeginningOfArray = ["Potatoes"];
  
- addElementToBeginningOfArray.push("Corn");
+addElementToBeginningOfArray.unshift("Green Beans");
 
-// we can assign it to the existing `cities` variable
-
-var destructivelyAddElementToBeginningOfArray = ["Silverware", ...addElementToBeginningOfArray];
-
-destructivelyAddElementToBeginningOfArray.push("Plate");
- console.log(addElementToBeginningOfArray);
-console.log(destructivelyAddElementToBeginningOfArray);
-
+var destructivelyAddElementToBeginningOfArray = ["Steak"];
+ 
+["Coke", ...addElementToBeginningOfArray];
+ 
+addElementToBeginningOfArray;
+destructivelyAddElementToBeginningOfArray;
 
 
 
@@ -35,7 +21,6 @@ const addElementToEndOfArray = ["Mashed Potatoes", "Green Beans"];
  
  addElementToEndOfArray.push("Corn");
 
-// we can assign it to the existing `cities` variable
 
 var destructivelyAddElementToEndOfArray = ["Silverware", ...addElementToEndOfArray];
 
@@ -78,14 +63,22 @@ var removeElementFromBeginningOfArray = ["Milo"];
  
 removeElementFromBeginningOfArray.slice(1);
  
-var removeElementFromBeginningOfArray = ["Milo", "Garfield", "Otis"];
+var removeElementFromBeginningOfArray = ["Milo"];
  
 removeElementFromBeginningOfArray = removeElementFromBeginningOfArray.slice(1);
  removeElementFromBeginningOfArray;
 
 
-var destructivelyRemoveElementFromEndOfArray = ["chocolate", "vanilla", "raspberry"];
+var destructivelyRemoveElementFromEndOfArray = [];
  
-destructivelyRemoveElementFromEndOfArray.slice(0, iceCreams.length - 1);
+destructivelyRemoveElementFromEndOfArray.slice(0, removeElementFromBeginningOfArray.length - 1);
  
 destructivelyRemoveElementFromEndOfArray;
+
+
+
+var removeElementFromEndOfArray = ["chocolate", "vanilla", "raspberry"];
+ 
+removeElementFromEndOfArray.slice(0, iceCreams.length - 1) ;
+ 
+iceCreams;
