@@ -20,6 +20,7 @@ var accessElementInArray = [1];
 console.log(accessElementInArray[0]);
 
 
+
 var addElementToBeginningOfArray = ["Mashed Potatoes"];
  addElementToBeginningOfArray = ["Steak", ...addElementToBeginningOfArray];
 
