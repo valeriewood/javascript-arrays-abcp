@@ -2,11 +2,12 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 console.log(chocolateBars);
 
 
-
-var addElementToBeginningOfArray = ["Mashed Potatoes"];
+var addElementToBeginningOfArray = new Array();
+addElementToBeginningOfArray = ["Mashed Potatoes", " "];
  addElementToBeginningOfArray = ["Steak", ...addElementToBeginningOfArray];
  
-var destructivelyAddElementToBeginningOfArray = ["Green Beans"];
+var destructivelyAddElementToBeginningOfArray = new Array();
+destructivelyAddElementToBeginningOfArray = ["Green Beans", " "];
  destructivelyAddElementToBeginningOfArray = ["Gravy", ...destructivelyAddElementToBeginningOfArray];
  
 addElementToBeginningOfArray;
