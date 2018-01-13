@@ -20,13 +20,8 @@ var accessElementInArray = [1];
 console.log(accessElementInArray[0]);
 
 
-function destructivelyAddElementToBeginningOfArray(array, element) {
-
-  array.unshift(element);
-
-  return array;
-
-}
+var addElementToBeginningOfArray = ["Mashed Potatoes"];
+ addElementToBeginningOfArray = ["Steak", ...addElementToBeginningOfArray];
 
 
 
