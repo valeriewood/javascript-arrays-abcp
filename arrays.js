@@ -19,11 +19,18 @@ var accessElementInArray = [1];
 
 console.log(accessElementInArray[0]);
 
-var acceptAnArray = " The function should accept an array";
-console.log(accessElementInArray[0] + acceptAnArray);
+
+var acceptAnArray = [" The function should accept an array"];
+var destructivelyRemoveElementFromBeginningOfArray = [...acceptAnArray];
  
-acceptAnArray[0];
+destructivelyRemoveElementFromBeginningOfArraydays.unshift(0);
 
 
 
-var destructivelyRemoveElementFromBeginningOfArray = [...addElementToBeginningOfArray];
+var removeElementFromBeginningOfArray = ["one"];
+removeElementFromBeginningOfArray.unshift(0);
+
+
+var destructivelyRemoveElementFromEndOfArray = ["one"];
+destructivelyRemoveElementFromEndOfArray.slice(0);
+destructivelyRemoveElementFromEndOfArray.legnth(0);
