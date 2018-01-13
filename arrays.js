@@ -20,10 +20,14 @@ var accessElementInArray = [1];
 console.log(accessElementInArray[0]);
 
 
-var acceptAnArray = [" The function should accept an array"];
-var destructivelyRemoveElementFromBeginningOfArray = [...acceptAnArray];
- 
-destructivelyRemoveElementFromBeginningOfArraydays.unshift(0);
+function destructivelyAddElementToBeginningOfArray(array, element) {
+
+  array.unshift(element);
+
+  return array;
+
+}
+
 
 
 
