@@ -6,7 +6,7 @@ var dinner = ["mashed potatoes", "green beans"];
 function addElementToBeginningOfArray(element, ...dinner) {
 return [element, ...dinner];
 }
-addElementToBeginningOfArray(dinner, "Sopranos"); 
+addElementToBeginningOfArray(dinner, "meat loaf"); 
 
 
 
@@ -17,12 +17,13 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 
 
-function addElementToEndOfArray(dinner, element) {
+function addElementToEndOfArray(array, element) {
   newArr= [...array,element];
   return newArr;
 }
 
 
 function destructivelyAddElementToEndOfArray(array, element) { array.push(element);
-return array}
-
+return array;
+}
+destructivelyAddElementToEndOfArray(dinner, "dinner rolls");
