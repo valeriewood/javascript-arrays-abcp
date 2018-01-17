@@ -30,9 +30,6 @@ destructivelyAddElementToEndOfArray(dinner, "dinner rolls");
 
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-
-  array.shift()
-
+  array.shift(element)
   return array
-
 }
