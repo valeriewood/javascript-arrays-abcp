@@ -17,19 +17,12 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 
 
 
-
 function addElementToEndOfArray(array, element) {
-
-  newArr= [...array,element]
-
-  return newArr
-
+  newArr= [...array,element];
+  return newArr;
 }
 
 
-
-
-function destructivelyAddElementToEndOfArray(array, element) { array.push(element)
-
+function destructivelyAddElementToEndOfArray(array, element) { array.push(element);
 return array}
 
