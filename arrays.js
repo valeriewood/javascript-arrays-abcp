@@ -24,12 +24,14 @@ function addElementToEndOfArray(array, element) {
 
 
 function destructivelyAddElementToEndOfArray(array, element) { array.push(element);
-return array;
+return dinner;
 }
 destructivelyAddElementToEndOfArray(dinner, "dinner rolls");
 
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
   array.shift(element)
-  return array
+  return dinner;
 }
+
+
