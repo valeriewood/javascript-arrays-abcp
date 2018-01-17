@@ -1,37 +1,10 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 console.log(chocolateBars);
 
-
-var addElementToBeginningOfArray = new Array();
-addElementToBeginningOfArray = ["Mashed Potatoes", " "];
- addElementToBeginningOfArray = ["Steak", ...addElementToBeginningOfArray];
- 
-var destructivelyAddElementToBeginningOfArray = new Array();
-destructivelyAddElementToBeginningOfArray = ["Green Beans", " "];
- destructivelyAddElementToBeginningOfArray = ["Gravy", ...destructivelyAddElementToBeginningOfArray];
- 
-addElementToBeginningOfArray;
-destructivelyAddElementToBeginningOfArray;
- 
- 
-
-var accessElementInArray = [1];
-[...accessElementInArray, 2];
-
-console.log(accessElementInArray[0]);
+var dinner = ["mashed potatoes", "green beans"];
+function addElementToBeginningOfArray(element, ...dinner) {
+return [element, ...dinner];
+}
+addElementToBeginningOfArray(dinner, "Sopranos"); 
 
 
-
-var addElementToBeginningOfArray = ["Mashed Potatoes"];
- addElementToBeginningOfArray = ["Steak", ...addElementToBeginningOfArray];
-
-
-
-
-var removeElementFromBeginningOfArray = ["one"];
-removeElementFromBeginningOfArray.unshift(0);
-
-
-var destructivelyRemoveElementFromEndOfArray = ["one"];
-destructivelyRemoveElementFromEndOfArray.slice(0);
-destructivelyRemoveElementFromEndOfArray.legnth(0);
