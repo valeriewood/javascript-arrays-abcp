@@ -27,3 +27,12 @@ function destructivelyAddElementToEndOfArray(array, element) { array.push(elemen
 return array;
 }
 destructivelyAddElementToEndOfArray(dinner, "dinner rolls");
+
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+
+  array.shift()
+
+  return array
+
+}
